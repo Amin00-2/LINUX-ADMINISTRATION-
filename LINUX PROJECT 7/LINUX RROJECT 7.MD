@@ -1,22 +1,21 @@
 Script Documentation:
 
-1. Usage:
-   - Run the script with the -s option followed by a quoted list of server addresses or hostnames.
-     Example: ./update_servers.sh -s 
+Vagrant file contains/connected to 3 remote servers
 
-2. Features:
-   - Connects to specified remote servers via SSH.
-   - Performs system updates and installs Apache2 and Nginx.
-   - Restarts both web services to ensure proper configuration.
+![alt text](<LINUX PROJECT 7 IMAGES/vagrant file that is connect to 3 remtote servers .png>)
 
-3. Error Handling:
-   - Validates input parameters.
-   - Logs success or failure for each server.
+Create a Vi editor  "sudo vi shelldip.sh"
 
-4. Requirements:
-   - Ensure SSH access is configured for the specified servers.
-   - The script requires sudo privileges on the remote servers.
+![alt text](<LINUX PROJECT 7 IMAGES/create the VI EDITOR FILE .png>)
 
-5. Testing:
-   - Test the script on virtual machines or test servers before using it in production.
+insert the shell sript file 
+![alt text](<LINUX PROJECT 7 IMAGES/inster the shell script in the VI Editor.png>)
 
+save and exit
+
+use sudo "chmod +x shelldip.sh" grant access permission 
+
+rRun this command ./shelldip.sh to deploy the sript
+![alt text](<LINUX PROJECT 7 IMAGES/DEPLOY.png>)
+
+![alt text](<LINUX PROJECT 7 IMAGES/AUTOMATION COMPLETED.png>)
